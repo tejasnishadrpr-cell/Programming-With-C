@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+    int a=10, b=20;
+    int temp;
+
+    printf("Before swapping: \n");
+    printf("a=%d, b=%d\n",a,b);
+
+    temp=a;
+    a=b;
+    b=temp;
+
+    printf("\nAfter swapping:\n");
+    printf("a=%d, b=%d\n", a,b);
+
+    return 0;
+}
